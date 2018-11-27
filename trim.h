@@ -10,3 +10,10 @@
  * Interface for trim
  * ----------------------------------------------------------
  */
+ #ifndef __TRIM_H
+ #define __TRIM_H
+ #define STRLEN 30
+
+ void trim(char*str, char*trimmed);
+
+#endif

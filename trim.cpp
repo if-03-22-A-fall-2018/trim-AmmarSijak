@@ -10,3 +10,13 @@
  * Test functions for trim.h
  * ----------------------------------------------------------
  */
+ #include "trim.h"
+ #include <string.h>
+  void trim(char* str, char* trimmed)
+  {
+    for (int i = 0; i < strlen(str); i++) {
+      if (str[i] == "") {
+      str[i] = 0;
+      }
+    }
+  }
